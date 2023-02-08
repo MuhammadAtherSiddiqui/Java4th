@@ -1,4 +1,4 @@
-//-----------CHAPTER NO # 09
+//-----------CHAPTER NO # 09-11
 //Q NO # 01
 
 // var city = prompt("Enter a city name");
@@ -194,3 +194,171 @@
 // else{
 //     document.write("Your number is Odd");
 // }
+
+//Q NO # 10
+
+// var temp=prompt("Enter a temperature");
+
+// if(temp >= 40){
+//     document.write("It is too hot outside.");
+// }
+// else if(temp >=30 && temp <40){
+//    document.write("The Weather today is Normal.");
+// }
+// else if(temp >=20 && temp <30){
+//     document.write("Today’s Weather is cool.");
+//  }
+//  else if(temp >=10 && temp <20){
+//     document.write("OMG! Today’s weather is so Cool.");
+//  }
+//  else if(temp >=1 && temp <10){
+//     document.write("Today's is very cool.");
+//  }else{
+//     document.write("Freezes");
+//  }
+
+//Q NO # 11
+
+// var num1 = +prompt("Enter first number");
+
+// var num2 = +prompt("Enter second number");
+
+// var opt = prompt("Enter Operator");
+
+// if(opt == "+"){
+//     document.write("Your addition is : " + (num1 + num2));
+// }
+// else if(opt == "-"){
+//     document.write("Your subtraction is : " + (num1 - num2));
+// }
+// else if(opt == "*" ){
+//     document.write("Your multiplication is : " + (num1 * num2));
+// }
+// else if(opt == "/" ){
+//     document.write("Your divsion is : " + (num1 / num2));
+// }
+// else if(opt == "%"){
+//     document.write("Your modulus is : " + (num1 % num2));
+// }
+
+//-----------CHAPTER NO # 12-13
+
+//Q NO # 01
+
+// var char =prompt("Enter a charater");
+
+// var charcode= char.charCodeAt()
+
+// if(charcode >=65 && charcode <=90){
+//       alert("Capital");
+// }
+// if(charcode >=97 && charcode <=122){
+//     alert("Small");
+// }else{
+//     alert("Not a character");
+// }
+
+//Q NO # 02
+
+// var num1 = +prompt("Enter first number:");
+
+// var num2 = +prompt("Enter second number:");
+
+// if (num1 > num2) {
+//   document.write("The larger number is: "+num1);
+// } else if (num2 > num1) {
+//     document.write("The larger number is: "+num2);
+// } else {
+//   document.write("Both numbers "+num1+" and "+num2+" are equal.");
+// }
+
+//Q NO # 03
+
+// var num = prompt("Enter a number:");
+
+// if (num > 0) {
+//   document.write(""+num+" is positive.");
+// } else if (num < 0) {
+//  document.write(""+num+" is negative.");
+// } else {
+//   document.write(""+num+" is zero.");
+// }
+
+//Q NO # 04
+
+// var char=prompt("Enter a character");
+
+// if(char === "a" || char === "A"|| char === "e" || char === "E" || char === "i" || char === "I" || char === "o" || char === "O" || char === "u" || char === "U" ){
+//     document.write(""+char+" is vowel.");
+// }else{
+//     document.write("Not a vowel ");
+// }
+
+//Q NO # 05
+
+// var password = "siddiqui"
+
+// var enterPass = prompt("Enter Your Password");
+
+// if (enterPass === password) {
+//     document.write("Correct! The password you entered matches the original password.")
+// }else {
+//     document.write("Incorrect Password!")
+// }
+
+//Q NO # 06
+
+// var greeting;
+
+// greeting = prompt("Enter a hour")
+
+// if (greeting <= 18) {
+//     document.write("Good day");
+// } else {
+//     document.write("Good evening");
+// }
+
+//Q NO # 07
+
+// var time = +prompt("Enter Your time:")
+// if (time == "1300") {
+//     alert("1 pm")
+// }else if (time == "1400") {
+//     alert("2 pm")
+// } else if (time == "1500") {
+//     alert("3 pm")
+// } else if (time == "1600") {
+//     alert("4 pm")
+// } else if (time == "1700") {
+//     alert("5 pm")
+// } else if (time == "1800") {
+//     alert("6 pm")
+// } else if (time == "1900") {
+//     alert("7 Pm GOOD EVENING")
+// } else if (time == "2000") {
+//     alert("8 pm")
+// } else if (time == "2100") {
+//     alert("9 pm")
+// } else if (time == "2200") {
+//     alert("10 pm GOOD NIGHT")
+// } else if (time == "2300") {
+//     alert("11 pm")
+// } else if (time == "2400") {
+//     alert("12 am")
+// } else {
+//     alert("You Entered Wrong Time")
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
